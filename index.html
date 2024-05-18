@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <i class="fa-solid fa-gamepad" style="color: #B197FC;"></i>
+        <h1>Let's Play Tic Tac Toe</h1>
+    </header>
+
+    <div class="msg-container hide">
+        <p id="msg">Winner</p>
+        <button id="new-game">New Game<i class="fa-regular fa-circle-play" style="color: #fbfaf4;"></i></button>
+    </div>
+
+    <div class="container">
+        <div class="game-board">
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+        </div>
+    </div>
+    
+    <button id="reset"> <i class="fa-solid fa-arrow-rotate-left" style="color: #fbfaf4;"></i>Reset Game</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
